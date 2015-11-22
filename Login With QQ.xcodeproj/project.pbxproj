@@ -1,0 +1,794 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45B900391C0204A40064CDC9 /* QZoneConnection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45B9001A1C0204A40064CDC9 /* QZoneConnection.framework */; };
+		45B9003A1C0204A40064CDC9 /* AGCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45B9001C1C0204A40064CDC9 /* AGCommon.framework */; };
+		45B9003B1C0204A40064CDC9 /* ShareSDKLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 45B9001D1C0204A40064CDC9 /* ShareSDKLocalizable.strings */; };
+		45B9003C1C0204A40064CDC9 /* MOBFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45B9001F1C0204A40064CDC9 /* MOBFoundation.framework */; };
+		45B9003D1C0204A40064CDC9 /* Resource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 45B900201C0204A40064CDC9 /* Resource.bundle */; };
+		45B9003E1C0204A40064CDC9 /* ShareSDKCoreService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45B900211C0204A40064CDC9 /* ShareSDKCoreService.framework */; };
+		45B9003F1C0204A40064CDC9 /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45B900291C0204A40064CDC9 /* TencentOpenAPI.framework */; };
+		45B900401C0204A40064CDC9 /* TencentOpenApi_IOS_Bundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 45B9002A1C0204A40064CDC9 /* TencentOpenApi_IOS_Bundle.bundle */; };
+		45B900411C0204A40064CDC9 /* ShareSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45B9002F1C0204A40064CDC9 /* ShareSDK.framework */; };
+		45B900421C0204A40064CDC9 /* ShareSDKFlatShareViewUI.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 45B900311C0204A40064CDC9 /* ShareSDKFlatShareViewUI.bundle */; };
+		45B900431C0204A40064CDC9 /* ShareSDKFlatShareViewUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45B900321C0204A40064CDC9 /* ShareSDKFlatShareViewUI.framework */; };
+		45B900441C0204A40064CDC9 /* ShareSDKiPhoneAppRecommendShareViewUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45B900331C0204A40064CDC9 /* ShareSDKiPhoneAppRecommendShareViewUI.framework */; };
+		45B900451C0204A40064CDC9 /* ShareSDKiPhoneDefaultShareViewUI.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 45B900341C0204A40064CDC9 /* ShareSDKiPhoneDefaultShareViewUI.bundle */; };
+		45B900461C0204A40064CDC9 /* ShareSDKiPhoneDefaultShareViewUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45B900351C0204A40064CDC9 /* ShareSDKiPhoneDefaultShareViewUI.framework */; };
+		45B900471C0204A40064CDC9 /* ShareSDKiPhoneSimpleShareViewUI.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 45B900361C0204A40064CDC9 /* ShareSDKiPhoneSimpleShareViewUI.bundle */; };
+		45B900481C0204A40064CDC9 /* ShareSDKiPhoneSimpleShareViewUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45B900371C0204A40064CDC9 /* ShareSDKiPhoneSimpleShareViewUI.framework */; };
+		45B900491C0204A40064CDC9 /* ShareSDKShareActionSheet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45B900381C0204A40064CDC9 /* ShareSDKShareActionSheet.framework */; };
+		45C399EE1B999781003B6957 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C399ED1B999781003B6957 /* main.m */; };
+		45C399F11B999781003B6957 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C399F01B999781003B6957 /* AppDelegate.m */; };
+		45C399F41B999781003B6957 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C399F31B999781003B6957 /* ViewController.m */; };
+		45C399F71B999781003B6957 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45C399F51B999781003B6957 /* Main.storyboard */; };
+		45C399F91B999781003B6957 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45C399F81B999781003B6957 /* Images.xcassets */; };
+		45C39A081B999782003B6957 /* Login_With_QQTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C39A071B999782003B6957 /* Login_With_QQTests.m */; };
+		45C39A7F1B999848003B6957 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 45C39A7E1B999848003B6957 /* libsqlite3.dylib */; };
+		45C39A811B999853003B6957 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45C39A801B999853003B6957 /* SystemConfiguration.framework */; };
+		45C39A831B999859003B6957 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45C39A821B999859003B6957 /* QuartzCore.framework */; };
+		45C39A851B99985F003B6957 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45C39A841B99985F003B6957 /* CoreTelephony.framework */; };
+		45C39A871B999868003B6957 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 45C39A861B999868003B6957 /* libicucore.dylib */; };
+		45C39A891B99986E003B6957 /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 45C39A881B99986E003B6957 /* libz.1.2.5.dylib */; };
+		45C39A8B1B999874003B6957 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45C39A8A1B999874003B6957 /* Security.framework */; };
+		45C39A8D1B999880003B6957 /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 45C39A8C1B999880003B6957 /* libstdc++.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		45C39A021B999782003B6957 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45C399E01B999781003B6957 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45C399E71B999781003B6957;
+			remoteInfo = "Login With QQ";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		45B9001A1C0204A40064CDC9 /* QZoneConnection.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QZoneConnection.framework; sourceTree = "<group>"; };
+		45B9001C1C0204A40064CDC9 /* AGCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AGCommon.framework; sourceTree = "<group>"; };
+		45B9001E1C0204A40064CDC9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/ShareSDKLocalizable.strings; sourceTree = "<group>"; };
+		45B9001F1C0204A40064CDC9 /* MOBFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MOBFoundation.framework; sourceTree = "<group>"; };
+		45B900201C0204A40064CDC9 /* Resource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Resource.bundle; sourceTree = "<group>"; };
+		45B900211C0204A40064CDC9 /* ShareSDKCoreService.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShareSDKCoreService.framework; sourceTree = "<group>"; };
+		45B900221C0204A40064CDC9 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/ShareSDKLocalizable.strings"; sourceTree = "<group>"; };
+		45B900291C0204A40064CDC9 /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TencentOpenAPI.framework; sourceTree = "<group>"; };
+		45B9002A1C0204A40064CDC9 /* TencentOpenApi_IOS_Bundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TencentOpenApi_IOS_Bundle.bundle; sourceTree = "<group>"; };
+		45B9002F1C0204A40064CDC9 /* ShareSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShareSDK.framework; sourceTree = "<group>"; };
+		45B900311C0204A40064CDC9 /* ShareSDKFlatShareViewUI.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ShareSDKFlatShareViewUI.bundle; sourceTree = "<group>"; };
+		45B900321C0204A40064CDC9 /* ShareSDKFlatShareViewUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShareSDKFlatShareViewUI.framework; sourceTree = "<group>"; };
+		45B900331C0204A40064CDC9 /* ShareSDKiPhoneAppRecommendShareViewUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShareSDKiPhoneAppRecommendShareViewUI.framework; sourceTree = "<group>"; };
+		45B900341C0204A40064CDC9 /* ShareSDKiPhoneDefaultShareViewUI.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ShareSDKiPhoneDefaultShareViewUI.bundle; sourceTree = "<group>"; };
+		45B900351C0204A40064CDC9 /* ShareSDKiPhoneDefaultShareViewUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShareSDKiPhoneDefaultShareViewUI.framework; sourceTree = "<group>"; };
+		45B900361C0204A40064CDC9 /* ShareSDKiPhoneSimpleShareViewUI.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ShareSDKiPhoneSimpleShareViewUI.bundle; sourceTree = "<group>"; };
+		45B900371C0204A40064CDC9 /* ShareSDKiPhoneSimpleShareViewUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShareSDKiPhoneSimpleShareViewUI.framework; sourceTree = "<group>"; };
+		45B900381C0204A40064CDC9 /* ShareSDKShareActionSheet.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShareSDKShareActionSheet.framework; sourceTree = "<group>"; };
+		45C399E81B999781003B6957 /* Login With QQ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Login With QQ.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45C399EC1B999781003B6957 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45C399ED1B999781003B6957 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		45C399EF1B999781003B6957 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		45C399F01B999781003B6957 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		45C399F21B999781003B6957 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		45C399F31B999781003B6957 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		45C399F61B999781003B6957 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		45C399F81B999781003B6957 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		45C39A011B999782003B6957 /* Login With QQTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Login With QQTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45C39A061B999782003B6957 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45C39A071B999782003B6957 /* Login_With_QQTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Login_With_QQTests.m; sourceTree = "<group>"; };
+		45C39A7E1B999848003B6957 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		45C39A801B999853003B6957 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		45C39A821B999859003B6957 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		45C39A841B99985F003B6957 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		45C39A861B999868003B6957 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		45C39A881B99986E003B6957 /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = usr/lib/libz.1.2.5.dylib; sourceTree = SDKROOT; };
+		45C39A8A1B999874003B6957 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		45C39A8C1B999880003B6957 /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45C399E51B999781003B6957 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45C39A8D1B999880003B6957 /* libstdc++.dylib in Frameworks */,
+				45B9003C1C0204A40064CDC9 /* MOBFoundation.framework in Frameworks */,
+				45B9003A1C0204A40064CDC9 /* AGCommon.framework in Frameworks */,
+				45C39A8B1B999874003B6957 /* Security.framework in Frameworks */,
+				45B9003F1C0204A40064CDC9 /* TencentOpenAPI.framework in Frameworks */,
+				45B9003E1C0204A40064CDC9 /* ShareSDKCoreService.framework in Frameworks */,
+				45B900431C0204A40064CDC9 /* ShareSDKFlatShareViewUI.framework in Frameworks */,
+				45B900481C0204A40064CDC9 /* ShareSDKiPhoneSimpleShareViewUI.framework in Frameworks */,
+				45C39A891B99986E003B6957 /* libz.1.2.5.dylib in Frameworks */,
+				45C39A871B999868003B6957 /* libicucore.dylib in Frameworks */,
+				45C39A851B99985F003B6957 /* CoreTelephony.framework in Frameworks */,
+				45B900491C0204A40064CDC9 /* ShareSDKShareActionSheet.framework in Frameworks */,
+				45B900461C0204A40064CDC9 /* ShareSDKiPhoneDefaultShareViewUI.framework in Frameworks */,
+				45B900441C0204A40064CDC9 /* ShareSDKiPhoneAppRecommendShareViewUI.framework in Frameworks */,
+				45B900411C0204A40064CDC9 /* ShareSDK.framework in Frameworks */,
+				45C39A831B999859003B6957 /* QuartzCore.framework in Frameworks */,
+				45C39A811B999853003B6957 /* SystemConfiguration.framework in Frameworks */,
+				45C39A7F1B999848003B6957 /* libsqlite3.dylib in Frameworks */,
+				45B900391C0204A40064CDC9 /* QZoneConnection.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45C399FE1B999782003B6957 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45B900181C0204A40064CDC9 /* ShareSDK */ = {
+			isa = PBXGroup;
+			children = (
+				45B900191C0204A40064CDC9 /* Connection */,
+				45B9001B1C0204A40064CDC9 /* Core */,
+				45B900231C0204A40064CDC9 /* Extend */,
+				45B9002F1C0204A40064CDC9 /* ShareSDK.framework */,
+				45B900301C0204A40064CDC9 /* UI */,
+			);
+			path = ShareSDK;
+			sourceTree = "<group>";
+		};
+		45B900191C0204A40064CDC9 /* Connection */ = {
+			isa = PBXGroup;
+			children = (
+				45B9001A1C0204A40064CDC9 /* QZoneConnection.framework */,
+			);
+			path = Connection;
+			sourceTree = "<group>";
+		};
+		45B9001B1C0204A40064CDC9 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				45B9001C1C0204A40064CDC9 /* AGCommon.framework */,
+				45B9001D1C0204A40064CDC9 /* ShareSDKLocalizable.strings */,
+				45B9001F1C0204A40064CDC9 /* MOBFoundation.framework */,
+				45B900201C0204A40064CDC9 /* Resource.bundle */,
+				45B900211C0204A40064CDC9 /* ShareSDKCoreService.framework */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		45B900231C0204A40064CDC9 /* Extend */ = {
+			isa = PBXGroup;
+			children = (
+				45B900241C0204A40064CDC9 /* APSocialSDK */,
+				45B900251C0204A40064CDC9 /* GooglePlusSDK */,
+				45B900261C0204A40064CDC9 /* Pinterest.embeddedframework */,
+				45B900281C0204A40064CDC9 /* QQConnectSDK */,
+				45B9002B1C0204A40064CDC9 /* RenRenSDK */,
+				45B9002C1C0204A40064CDC9 /* SinaWeiboSDK */,
+				45B9002D1C0204A40064CDC9 /* WeChatSDK */,
+				45B9002E1C0204A40064CDC9 /* YiXinSDK */,
+			);
+			path = Extend;
+			sourceTree = "<group>";
+		};
+		45B900241C0204A40064CDC9 /* APSocialSDK */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = APSocialSDK;
+			sourceTree = "<group>";
+		};
+		45B900251C0204A40064CDC9 /* GooglePlusSDK */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = GooglePlusSDK;
+			sourceTree = "<group>";
+		};
+		45B900261C0204A40064CDC9 /* Pinterest.embeddedframework */ = {
+			isa = PBXGroup;
+			children = (
+				45B900271C0204A40064CDC9 /* Resources */,
+			);
+			path = Pinterest.embeddedframework;
+			sourceTree = "<group>";
+		};
+		45B900271C0204A40064CDC9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		45B900281C0204A40064CDC9 /* QQConnectSDK */ = {
+			isa = PBXGroup;
+			children = (
+				45B900291C0204A40064CDC9 /* TencentOpenAPI.framework */,
+				45B9002A1C0204A40064CDC9 /* TencentOpenApi_IOS_Bundle.bundle */,
+			);
+			path = QQConnectSDK;
+			sourceTree = "<group>";
+		};
+		45B9002B1C0204A40064CDC9 /* RenRenSDK */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RenRenSDK;
+			sourceTree = "<group>";
+		};
+		45B9002C1C0204A40064CDC9 /* SinaWeiboSDK */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SinaWeiboSDK;
+			sourceTree = "<group>";
+		};
+		45B9002D1C0204A40064CDC9 /* WeChatSDK */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = WeChatSDK;
+			sourceTree = "<group>";
+		};
+		45B9002E1C0204A40064CDC9 /* YiXinSDK */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = YiXinSDK;
+			sourceTree = "<group>";
+		};
+		45B900301C0204A40064CDC9 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				45B900311C0204A40064CDC9 /* ShareSDKFlatShareViewUI.bundle */,
+				45B900321C0204A40064CDC9 /* ShareSDKFlatShareViewUI.framework */,
+				45B900331C0204A40064CDC9 /* ShareSDKiPhoneAppRecommendShareViewUI.framework */,
+				45B900341C0204A40064CDC9 /* ShareSDKiPhoneDefaultShareViewUI.bundle */,
+				45B900351C0204A40064CDC9 /* ShareSDKiPhoneDefaultShareViewUI.framework */,
+				45B900361C0204A40064CDC9 /* ShareSDKiPhoneSimpleShareViewUI.bundle */,
+				45B900371C0204A40064CDC9 /* ShareSDKiPhoneSimpleShareViewUI.framework */,
+				45B900381C0204A40064CDC9 /* ShareSDKShareActionSheet.framework */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		45C399DF1B999781003B6957 = {
+			isa = PBXGroup;
+			children = (
+				45C39A7D1B999826003B6957 /* Frameworks */,
+				45C399EA1B999781003B6957 /* Login With QQ */,
+				45C39A041B999782003B6957 /* Login With QQTests */,
+				45C399E91B999781003B6957 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		45C399E91B999781003B6957 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45C399E81B999781003B6957 /* Login With QQ.app */,
+				45C39A011B999782003B6957 /* Login With QQTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45C399EA1B999781003B6957 /* Login With QQ */ = {
+			isa = PBXGroup;
+			children = (
+				45B900181C0204A40064CDC9 /* ShareSDK */,
+				45C399EF1B999781003B6957 /* AppDelegate.h */,
+				45C399F01B999781003B6957 /* AppDelegate.m */,
+				45C399F21B999781003B6957 /* ViewController.h */,
+				45C399F31B999781003B6957 /* ViewController.m */,
+				45C399F51B999781003B6957 /* Main.storyboard */,
+				45C399F81B999781003B6957 /* Images.xcassets */,
+				45C399EB1B999781003B6957 /* Supporting Files */,
+			);
+			path = "Login With QQ";
+			sourceTree = "<group>";
+		};
+		45C399EB1B999781003B6957 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				45C399EC1B999781003B6957 /* Info.plist */,
+				45C399ED1B999781003B6957 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		45C39A041B999782003B6957 /* Login With QQTests */ = {
+			isa = PBXGroup;
+			children = (
+				45C39A071B999782003B6957 /* Login_With_QQTests.m */,
+				45C39A051B999782003B6957 /* Supporting Files */,
+			);
+			path = "Login With QQTests";
+			sourceTree = "<group>";
+		};
+		45C39A051B999782003B6957 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				45C39A061B999782003B6957 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		45C39A7D1B999826003B6957 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				45C39A8C1B999880003B6957 /* libstdc++.dylib */,
+				45C39A8A1B999874003B6957 /* Security.framework */,
+				45C39A881B99986E003B6957 /* libz.1.2.5.dylib */,
+				45C39A861B999868003B6957 /* libicucore.dylib */,
+				45C39A841B99985F003B6957 /* CoreTelephony.framework */,
+				45C39A821B999859003B6957 /* QuartzCore.framework */,
+				45C39A801B999853003B6957 /* SystemConfiguration.framework */,
+				45C39A7E1B999848003B6957 /* libsqlite3.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45C399E71B999781003B6957 /* Login With QQ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45C39A0B1B999782003B6957 /* Build configuration list for PBXNativeTarget "Login With QQ" */;
+			buildPhases = (
+				45C399E41B999781003B6957 /* Sources */,
+				45C399E51B999781003B6957 /* Frameworks */,
+				45C399E61B999781003B6957 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Login With QQ";
+			productName = "Login With QQ";
+			productReference = 45C399E81B999781003B6957 /* Login With QQ.app */;
+			productType = "com.apple.product-type.application";
+		};
+		45C39A001B999782003B6957 /* Login With QQTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45C39A0E1B999782003B6957 /* Build configuration list for PBXNativeTarget "Login With QQTests" */;
+			buildPhases = (
+				45C399FD1B999782003B6957 /* Sources */,
+				45C399FE1B999782003B6957 /* Frameworks */,
+				45C399FF1B999782003B6957 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45C39A031B999782003B6957 /* PBXTargetDependency */,
+			);
+			name = "Login With QQTests";
+			productName = "Login With QQTests";
+			productReference = 45C39A011B999782003B6957 /* Login With QQTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45C399E01B999781003B6957 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = com.renrunkeji.com;
+				TargetAttributes = {
+					45C399E71B999781003B6957 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					45C39A001B999782003B6957 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 45C399E71B999781003B6957;
+					};
+				};
+			};
+			buildConfigurationList = 45C399E31B999781003B6957 /* Build configuration list for PBXProject "Login With QQ" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 45C399DF1B999781003B6957;
+			productRefGroup = 45C399E91B999781003B6957 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45C399E71B999781003B6957 /* Login With QQ */,
+				45C39A001B999782003B6957 /* Login With QQTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45C399E61B999781003B6957 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45B9003B1C0204A40064CDC9 /* ShareSDKLocalizable.strings in Resources */,
+				45C399F71B999781003B6957 /* Main.storyboard in Resources */,
+				45C399F91B999781003B6957 /* Images.xcassets in Resources */,
+				45B900401C0204A40064CDC9 /* TencentOpenApi_IOS_Bundle.bundle in Resources */,
+				45B900471C0204A40064CDC9 /* ShareSDKiPhoneSimpleShareViewUI.bundle in Resources */,
+				45B900421C0204A40064CDC9 /* ShareSDKFlatShareViewUI.bundle in Resources */,
+				45B9003D1C0204A40064CDC9 /* Resource.bundle in Resources */,
+				45B900451C0204A40064CDC9 /* ShareSDKiPhoneDefaultShareViewUI.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45C399FF1B999782003B6957 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45C399E41B999781003B6957 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45C399F41B999781003B6957 /* ViewController.m in Sources */,
+				45C399F11B999781003B6957 /* AppDelegate.m in Sources */,
+				45C399EE1B999781003B6957 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45C399FD1B999782003B6957 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45C39A081B999782003B6957 /* Login_With_QQTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		45C39A031B999782003B6957 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45C399E71B999781003B6957 /* Login With QQ */;
+			targetProxy = 45C39A021B999782003B6957 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		45B9001D1C0204A40064CDC9 /* ShareSDKLocalizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45B9001E1C0204A40064CDC9 /* en */,
+				45B900221C0204A40064CDC9 /* zh-Hans */,
+			);
+			name = ShareSDKLocalizable.strings;
+			sourceTree = "<group>";
+		};
+		45C399F51B999781003B6957 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45C399F61B999781003B6957 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		45C39A091B999782003B6957 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		45C39A0A1B999782003B6957 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		45C39A0C1B999782003B6957 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/Login",
+					With,
+					QQ/ShareSDK/Connection,
+					"$(PROJECT_DIR)/Login",
+					With,
+					QQ/ShareSDK/Core,
+					"$(PROJECT_DIR)/Login",
+					With,
+					QQ/ShareSDK/Extend/GooglePlusSDK,
+					"$(PROJECT_DIR)/Login",
+					With,
+					QQ/ShareSDK/Extend/Pinterest.embeddedframework,
+					"$(PROJECT_DIR)/Login",
+					With,
+					QQ/ShareSDK/Extend/QQConnectSDK,
+					"$(PROJECT_DIR)/Login",
+					With,
+					QQ/ShareSDK/Extend/RenRenSDK,
+					"$(PROJECT_DIR)/Login",
+					With,
+					QQ/ShareSDK,
+					"$(PROJECT_DIR)/Login",
+					With,
+					QQ/ShareSDK/UI,
+					"$(PROJECT_DIR)/Login",
+					With,
+					QQ/ShareSDK/Connection,
+					"$(PROJECT_DIR)/Login",
+					With,
+					QQ/ShareSDK/Core,
+					"$(PROJECT_DIR)/Login",
+					With,
+					QQ/ShareSDK/Extend/QQConnectSDK,
+					"$(PROJECT_DIR)/Login",
+					With,
+					QQ/ShareSDK,
+					"$(PROJECT_DIR)/Login",
+					With,
+					QQ/ShareSDK/UI,
+					"$(PROJECT_DIR)/Login",
+					With,
+					QQ/ShareSDK/Connection,
+					"$(PROJECT_DIR)/Login",
+					With,
+					QQ/ShareSDK/Core,
+					"$(PROJECT_DIR)/Login",
+					With,
+					QQ/ShareSDK/Extend/QQConnectSDK,
+					"$(PROJECT_DIR)/Login",
+					With,
+					QQ/ShareSDK,
+					"$(PROJECT_DIR)/Login",
+					With,
+					QQ/ShareSDK/UI,
+				);
+				INFOPLIST_FILE = "Login With QQ/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/Login",
+					With,
+					QQ/ShareSDK/Extend/APSocialSDK,
+					"$(PROJECT_DIR)/Login",
+					With,
+					QQ/ShareSDK/Extend/SinaWeiboSDK,
+					"$(PROJECT_DIR)/Login",
+					With,
+					QQ/ShareSDK/Extend/WeChatSDK,
+					"$(PROJECT_DIR)/Login",
+					With,
+					QQ/ShareSDK/Extend/YiXinSDK,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		45C39A0D1B999782003B6957 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/Login",
+					With,
+					QQ/ShareSDK/Connection,
+					"$(PROJECT_DIR)/Login",
+					With,
+					QQ/ShareSDK/Core,
+					"$(PROJECT_DIR)/Login",
+					With,
+					QQ/ShareSDK/Extend/GooglePlusSDK,
+					"$(PROJECT_DIR)/Login",
+					With,
+					QQ/ShareSDK/Extend/Pinterest.embeddedframework,
+					"$(PROJECT_DIR)/Login",
+					With,
+					QQ/ShareSDK/Extend/QQConnectSDK,
+					"$(PROJECT_DIR)/Login",
+					With,
+					QQ/ShareSDK/Extend/RenRenSDK,
+					"$(PROJECT_DIR)/Login",
+					With,
+					QQ/ShareSDK,
+					"$(PROJECT_DIR)/Login",
+					With,
+					QQ/ShareSDK/UI,
+					"$(PROJECT_DIR)/Login",
+					With,
+					QQ/ShareSDK/Connection,
+					"$(PROJECT_DIR)/Login",
+					With,
+					QQ/ShareSDK/Core,
+					"$(PROJECT_DIR)/Login",
+					With,
+					QQ/ShareSDK/Extend/QQConnectSDK,
+					"$(PROJECT_DIR)/Login",
+					With,
+					QQ/ShareSDK,
+					"$(PROJECT_DIR)/Login",
+					With,
+					QQ/ShareSDK/UI,
+					"$(PROJECT_DIR)/Login",
+					With,
+					QQ/ShareSDK/Connection,
+					"$(PROJECT_DIR)/Login",
+					With,
+					QQ/ShareSDK/Core,
+					"$(PROJECT_DIR)/Login",
+					With,
+					QQ/ShareSDK/Extend/QQConnectSDK,
+					"$(PROJECT_DIR)/Login",
+					With,
+					QQ/ShareSDK,
+					"$(PROJECT_DIR)/Login",
+					With,
+					QQ/ShareSDK/UI,
+				);
+				INFOPLIST_FILE = "Login With QQ/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/Login",
+					With,
+					QQ/ShareSDK/Extend/APSocialSDK,
+					"$(PROJECT_DIR)/Login",
+					With,
+					QQ/ShareSDK/Extend/SinaWeiboSDK,
+					"$(PROJECT_DIR)/Login",
+					With,
+					QQ/ShareSDK/Extend/WeChatSDK,
+					"$(PROJECT_DIR)/Login",
+					With,
+					QQ/ShareSDK/Extend/YiXinSDK,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		45C39A0F1B999782003B6957 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Login With QQTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Login With QQ.app/Login With QQ";
+			};
+			name = Debug;
+		};
+		45C39A101B999782003B6957 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Login With QQTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Login With QQ.app/Login With QQ";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45C399E31B999781003B6957 /* Build configuration list for PBXProject "Login With QQ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45C39A091B999782003B6957 /* Debug */,
+				45C39A0A1B999782003B6957 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45C39A0B1B999782003B6957 /* Build configuration list for PBXNativeTarget "Login With QQ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45C39A0C1B999782003B6957 /* Debug */,
+				45C39A0D1B999782003B6957 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45C39A0E1B999782003B6957 /* Build configuration list for PBXNativeTarget "Login With QQTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45C39A0F1B999782003B6957 /* Debug */,
+				45C39A101B999782003B6957 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45C399E01B999781003B6957 /* Project object */;
+}
